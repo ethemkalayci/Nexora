@@ -99,3 +99,17 @@ section > div:first-child {
 section > div:last-child {
   align-self: center; /* Aligner en bas */
 }
+
+#cta a {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #6B7280; /* gris moyen pour plus de discrétion */
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+#cta a:hover {
+  color: #3B82F6;        /* bleu au survol */
+  text-decoration: underline; /* soulignement uniquement au hover */
+}

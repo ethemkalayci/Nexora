@@ -68,6 +68,10 @@
 
       <section id="features">
         <div>
+        <img src="../assets/img/nexoraAndFeatures.png">
+        </div>
+
+        <div>
           <h3><em><b>Ce que vous pouvez faire avec Nexora</b></em></h3>
           <ul>
             <li><b>Dashboard : </b>Vue centralisée de la semaine et des modules</li>
@@ -77,14 +81,10 @@
             <li><b>Habit Tracker : </b>Tableau interactif, statistiques de progression</li>
           </ul>
         </div>
-
-        <div>
-
-        </div>
       </section>
 
       <section id="cta">
-      <div>
+        <div>
           <h3><em><b>Reprends le contrôle de ta routine.</b></em></h3>
           <button class="btn btn-primary btn-lg">Se connecter</button>
           <a href="#features">En savoir plus sur les fonctionnalités</a>
