@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Prompt:wght@100&display=swap');
+:root {
+    /* COULEURS DE BASE GÉNÉRALES */
+    --nexora-bg: #F9FAFB;        /* Fond principal doux (dashboard, pages, menus) */
+    --nexora-text: #182d4a;      /* Texte principal lisible (titres, paragraphes) */
+    --nexora-border: #E5E7EB;    /* Bordures discrètes, séparateurs, contours */
+  
+    /* COULEURS PAR MODULE (accents visuels, menus, boutons) */
+    --color-dashboard: #3B82F6;  /* Accent bleu – hub central, tableau de bord */
+    --color-calendrier: #10B981;/* Accent vert menthe – module calendrier */
+    --color-todo: #FBBF24;       /* Accent jaune – module ToDo List (priorités, statuts) */
+    --color-finance: #F97316;    /* Accent orange – module financier (graphes, alertes) */
+    --color-habits: #8B5CF6;     /* Accent violet – module habit tracker, suivi hebdomadaire */
+  
+    /* COULEURS POUR ÉVÉNEMENTS PERSONNALISÉS (calendrier, todo, etc.) */
+    --event-rouge: #F87171;      /* Rouge pastel – événements urgents ou critiques */
+    --event-rose: #F472B6;       /* Rose doux – bien-être, tâches personnelles */
+    --event-indigo: #6366F1;     /* Indigo – travail, focus, études */
+    --event-vert: #34D399;       /* Vert – santé, sport, alimentation */
+    --event-jaune: #FCD34D;      /* Jaune – rappels, événements mineurs, anniversaires */
+    --event-turquoise: #06B6D4;  /* Turquoise – activités sociales, rendez-vous externes */
+
+    /* POLICE D'ECRITURE */
+    --font-titles: 'Prompt', sans-serif; /* Pour les titres */
+    --font-body: "Oxygen", sans-serif; /* Pour le texte courant */
+  }
+
+/* SURCHAGE BOOTSTRAP */
+.btn-primary{
+  background-color: var(--color-dashboard);
+}
+
+body{
+      background-color: var(--nexora-bg);
+      color: var(--nexora-text);
+      font-size: 1.3em;
+      font-family: var(--font-body);
+}
+
+h1{
+    font-family: var(--font-titles);
+}
+
+#hero-about button {
+  width: auto;
+  display: inline-block;
+  align-self: flex-start; /* pour éviter qu’il s’étale en largeur dans un flex */
+}
+
+.nav-link {
+  color: #333;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #0d6efd; /* bleu Bootstrap */
+}
+
+
+/* STYLE GLOBAL POUR TOUTES LES SECTIONS */
+section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 80px 50px;
+  border-bottom: 1px solid var(--nexora-border);
+}
+
+/* GESTION DU CONTENU TEXTE DANS CHAQUE SECTION */
+section > div {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* IMAGES DANS LES SECTIONS */
+section img {
+  width: auto;
+  height: 25em;
+  border-radius: 15px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section img:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+}
+
+/* Les deux blocs dans une section */
+section > div:first-child {
+  align-self: center; /* Aligner en haut */
+}
+
+section > div:last-child {
+  align-self: center; /* Aligner en bas */
+}

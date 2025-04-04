@@ -1,0 +1,28 @@
+-Index
+	° Changer la page d'index vers la page de connections et ensuite afficher l'app
+
+
+
+-Calendrier
+	° fixer le bug en décembre
+	° afficher les évènements de chaque utilisateur uniquement
+	° Ajouter des "Tag" au évènement et pouvoir les styliser différemment en fonction de ces tags (Couleurs)
+
+
+-ToDO list
+
+
+
+-Gestion de finance 
+	° Suivis de finance (possibilité d'ajouter des source de revenu (automatiquement ou manuellement))
+	° Suivis du plan d'épargne (sur base d'un pourcentage donnée l'utilisateur peut voir le montant exacte à ajouter sur son compte épargne)
+	° Vision futur (L'utilisateur peut voir l'argent qu'il auras dans le futur si il continue a suivre son plan d'épargne sur une duré donnée)
+
+
+
+-Suivi des habitude
+	° L'utilisateur peut ajouter et retirer des habitude et cocher chaque jour si cette habitude à été faite ou pas
+	° chaque fin de semaine il reçoit un score, le but est de soit attendre le score maximum (terminer toute les habitude) soit de l'améliorer
+	° Crée un onglet statistique et voir quelle est l'habitude qu'il le fait le plus ou le moins en moyenne sur le mois, l'année
+	° verif des statistique
+ 
