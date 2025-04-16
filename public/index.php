@@ -9,29 +9,8 @@
   <title>Nexora</title>
   </head>
   <body>
-  <header class="bg-light border-bottom py-3">
-    <div class="container d-flex flex-wrap justify-content-between align-items-center">
-      <h1 class="h4 m-0">Nexora</h1>
-      <nav>
-        <ul class="nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#hero">Accueil</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">À propos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#features">Fonctionnalités</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#cta">Commencer</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </header>
 
-
+  <?php include "../includes/header-welcome.php" ?>
     <main>
       <section id="hero">
         <div id="hero-img">
@@ -41,7 +20,7 @@
         <div id="hero-about">
           <h3><em><b>Nexora. Un seul espace pour organiser ta vie.</b></em></h3>
           <em>Un assistant personnel intelligent combinant productivité, finances et habitudes.</em>
-          <button class="btn btn-primary btn-lg">Voir le tableau de bord</button>
+          <a class="btn btn-primary btn-lg btn-anim " href="register.php">Voir le tableau de bord</a>
         </div>
       </section>
 
@@ -67,11 +46,7 @@
       </section>
 
       <section id="features">
-        <div>
-        <img src="../assets/img/nexoraAndFeatures.png">
-        </div>
-
-        <div>
+      <div>
           <h3><em><b>Ce que vous pouvez faire avec Nexora</b></em></h3>
           <ul>
             <li><b>Dashboard : </b>Vue centralisée de la semaine et des modules</li>
@@ -81,13 +56,18 @@
             <li><b>Habit Tracker : </b>Tableau interactif, statistiques de progression</li>
           </ul>
         </div>
+
+
+        <div>
+          <img src="../assets/img/nexoraAndFeatures.png">
+        </div>
       </section>
 
       <section id="cta">
         <div>
           <h3><em><b>Reprends le contrôle de ta routine.</b></em></h3>
-          <button class="btn btn-primary btn-lg">Se connecter</button>
-          <a href="#features">En savoir plus sur les fonctionnalités</a>
+          <a  class="btn btn-primary btn-lg btn-anim " href="register.php">Se connecter</a>
+          <a class="footer-a" href="#features">En savoir plus sur les fonctionnalités</a>
         </div>
       </section>
     </main>
